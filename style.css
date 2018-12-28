@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Merriweather;
+    text-rendering: optimizeLegibility;
+    font-size: 125.0%;
+}
+.row{
+    width: auto;
+    height: auto;
+    display: block;
+    max-width: 906px;
+    margin: 0 auto;
+
+}
+blockquote{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #e67e22;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    
+}
+.textfield{
+    min-height: 45px;
+    min-width: 280px;
+    margin: 40px auto;
+    display: block;
+    margin-top: 20px;
+    outline:none;
+    transition: border 150ms;
+    border:2px solid transparent;
+    font-size: 90%;
+    border-bottom-color: #3498db;
+}
+.textfield:focus{
+    border: 2px solid #3498db;
+}
+input[type = text]{
+    padding-left: 10px;
+}
+.btn{
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 55px;
+    margin: 0px auto;
+    display: block;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #2ecc71;
+    color: white;
+    font-size: 100%;
+}
+.btn-1{
+    margin:30px 0 30px 0;
+    background: #34495e;
+}
+h4{
+    margin:30px 0;
+    font-size:111.1%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8e44ad;
+}
+.container{
+    padding: 40px 40px 10px 40px;
+    width: auto;
+    height: auto;
+    border: 2px solid #bdc3c7;
+}
+.firstTask{
+    padding: 10px;
+    border: 2px solid #e67e22;
+    font-size: 100%;
+    margin-bottom: 30px;
+    width: auto;
+    height: 60px;
+}
+p{
+    padding-top: 7px;;
+    display: inline-block;
+    color: #95a5a6;
+}
+a{
+    float: right;
+    padding:7px 20px;
+    font-size: 120%;
+}
+.wrong{
+    color:#e74c3c;
+}
+.right{
+    color: #2ecc71;
+}
